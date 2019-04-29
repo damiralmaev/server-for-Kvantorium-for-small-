@@ -1,0 +1,86 @@
+{
+  "computercraft:recipes/advanced_monitor": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/wireless_modem": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2019-04-26 18:44:26 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/cable": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/normal_monitor": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/speaker": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/normal_turtle": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/ender_modem": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/normal_pocket_computer": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/printer": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/wired_modem": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "computercraft:recipes/disk_drive": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2019-04-26 18:36:54 +0300"
+    },
+    "done": false
+  },
+  "computercraft:recipes/advanced_pocket_computer": {
+    "criteria": {
+      "has_normal": "2019-04-29 17:51:33 +0300"
+    },
+    "done": true
+  }
+}

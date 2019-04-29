@@ -1,0 +1,65 @@
+# Tablist v1.3.2.9 by sn1cko
+# Time is set in milliseconds which means every 20 = 1 second
+# for example: 6000 = 5 minuntes OR 300 = 15 seconds
+# 
+# The announcer will never stop if the time is set to 0
+# Else it will stop after the amount of milliseconds you wish
+# 
+# There are currently 15 variables available which can be built in
+# for example %player% - will display the playername or %health% - will give out the health
+# all other variables can be found on the website
+# https://dev.bukkit.org/projects/tablist/pages/variables
+# You can also add PlaceholderAPI to your server to get way more variables
+# Download-Link (with instructions):
+# https://www.spigotmc.org/resources/placeholderapi.6245/
+Tablist:
+  Settings:
+    Staff:
+      Permission: tablist.staff
+    ShowVanishedPlayerOnVariable:
+      Toggle: false
+      ChangeText:
+        Toggle: false
+        UsersSeeOnlineText: '%online%'
+        StaffsSeeOnlineText: '%online% | %vanished%'
+    CustomPrefix:
+      Toggle: false
+      Format: '%prefix% %player%'
+    Toggle: true
+    Time: 20
+    Messages:
+      Header:
+      - |-
+        &2Stalin&aCraft
+        &7Online: &a&o%onlineplayers%&7&o/&2&o%maxonlineplayers%
+        &7Ping: &a%ping%
+        &7===================
+      - |-
+        &3Stalin&bCraft
+        &7Online: &b&o%onlineplayers%&7&o/&3&o%maxonlineplayers%
+        &7Ping: &b%ping%
+        &7===================
+      - |-
+        &6Stalin&eCraft
+        &7Online: &e&o%onlineplayers%&8&o/&6&o%maxonlineplayers%
+        &7Ping: &e%ping%
+        &7===================
+      Footer:
+      - |-
+        &7===================
+        &2%player%
+        &7Health: &a&o%health%&7/&2&o%maxhealth%
+        &7Food: &a&o%foodlevel%&7/&2&o20
+        &7X:&a&o%blockx%&7 Y:&a&o%blocky%&7 Z:&a&o%blockz%
+      - |-
+        &7===================
+        &3%player%
+        &7Health: &b&o%health%&7/&3&o%maxhealth%
+        &7Food: &b&o%foodlevel%&7/&3&o20
+        &7X:&b&o%blockx%&7 Y:&b&o%blocky%&7 Z:&b&o%blockz%
+      - |-
+        &7===================
+        &6%player%
+        &7Health: &e&o%health%&7/&6&o%maxhealth%
+        &7Food: &e&o%foodlevel%&7/&6&o20
+        &7X:&e&o%blockx%&7 Y:&e&o%blocky%&7 Z:&e&o%blockz%
